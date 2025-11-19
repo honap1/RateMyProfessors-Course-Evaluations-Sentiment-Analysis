@@ -1,0 +1,43 @@
+{
+  "model_name": "MLP with GloVe Embeddings",
+  "architecture": {
+    "embedding_type": "GloVe 6B 100d",
+    "input_dim": 100,
+    "hidden_dims": [
+      128,
+      64
+    ],
+    "dropout": 0.3,
+    "total_parameters": 21698
+  },
+  "embeddings": {
+    "glove_vocab_size": 400000,
+    "coverage": 0.9845954077955359,
+    "zero_vectors": 9
+  },
+  "training": {
+    "epochs": 14,
+    "best_val_f1": 0.8874323168994015
+  },
+  "train": {
+    "accuracy": 0.8507424033149171,
+    "precision": 0.9048445050179655,
+    "recall": 0.8837124878993223,
+    "f1": 0.8941536577900214,
+    "roc_auc": 0.4978093035258167
+  },
+  "validation": {
+    "accuracy": 0.8408541498791298,
+    "precision": 0.8958573072497124,
+    "recall": 0.8791643139469226,
+    "f1": 0.8874323168994015,
+    "roc_auc": 0.9095419959481601
+  },
+  "test": {
+    "accuracy": 0.8385018123238018,
+    "precision": 0.9043683589138135,
+    "recall": 0.8650479954827781,
+    "f1": 0.8842712842712843,
+    "roc_auc": 0.9102769177573771
+  }
+}

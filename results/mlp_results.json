@@ -1,0 +1,44 @@
+{
+  "model_name": "Multi-Layer Perceptron with TF-IDF Features",
+  "architecture": {
+    "input_dim": 3000,
+    "hidden_dims": [
+      512,
+      256,
+      128
+    ],
+    "dropout": 0.4,
+    "total_parameters": 1702786,
+    "trainable_parameters": 1702786
+  },
+  "training": {
+    "epochs_trained": 12,
+    "best_val_f1": 0.9032815198618307,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "batch_size": 64,
+    "early_stopping": 7
+  },
+  "train": {
+    "accuracy": 0.9574412983425414,
+    "precision": 0.9951573849878934,
+    "recall": 0.9449419167473379,
+    "f1": 0.9693997889640619,
+    "roc_auc": 0.5050398046688205
+  },
+  "validation": {
+    "accuracy": 0.8646253021756648,
+    "precision": 0.9213153258954786,
+    "recall": 0.885940146809712,
+    "f1": 0.9032815198618307,
+    "roc_auc": 0.9322277734495678
+  },
+  "test": {
+    "accuracy": 0.851389448248087,
+    "precision": 0.9284841075794621,
+    "recall": 0.857707509881423,
+    "f1": 0.8916935720575286,
+    "roc_auc": 0.922679848241646
+  }
+}
