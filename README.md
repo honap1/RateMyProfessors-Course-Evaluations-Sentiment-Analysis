@@ -213,7 +213,7 @@ jupyter notebook NLP_Capstone_Project_Code_Repository.ipynb
 - Kimberly Venice Alon
 - Aaron John Pacis
 - Allyana Coleen Reyes
-- Juliane Moira Roldan
+- Julianne Moira Roldan
 
 **Contributions:** All members contributed equally to code review, testing, and presentation
 
